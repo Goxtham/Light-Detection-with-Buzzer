@@ -33,4 +33,6 @@ DEVICE_ID="BOLTXXXXXXX" #ENTER YOUR BOLT DEVICE ID
 ﻿
 
 Step 5: Create another python file for the main code of the project, type- sudo nano light_detection_buzzer.py to create it and enter the following code given on my Github gists 
- check this link for the full documentation https://projectsubmission.boltiot.com/?p=13874&preview=true
+
+ 
+Check this link for the full documentation https://projectsubmission.boltiot.com/?p=13874&preview=true
