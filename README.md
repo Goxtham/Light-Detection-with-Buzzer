@@ -16,4 +16,21 @@ Step 3: Login into Digital Ocean Ubuntu server using PuTTY by entering the dropl
 
 Step 4: Create a python file in to save our Mailgun and Twilio Credentials called as conf.py, type- sudo nano conf.py to create it. Add the following credentials and save the file by pressing CTRL+X keys followed by “y” key and finally press the Enter key.
 
+
+SID="XXXXXXXXXXXXXXXXXXXXXXX" #ENTER YOUR TWILIO SID
+AUTH_TOKEN="XXXXXXXXXXXXXXXXXX" #ENTER YOUR TWILIO AUTH TOKEN
+FROM_NUMBER="Number provided by twilio"
+TO_NUMBER="Enter your number"
+MAILGUN_API_KEY="XXXXXXXXXXXXXXXXXXXX"
+ #ENTER MAILGUN API KEY 
+SANDBOX_URL="XXXXXXXXXXXXXXXXXXXX" #ENTER SANDBOX URL BY MAILGUN
+SENDER_EMAIL="test@"+SANDBOX_URL
+ #NO CHANGE REQUIRED HERE
+RECIPIENT_EMAIL="ENTER YOUR EMAIL"
+API_KEY="XXXXXXXXXXXXXXXXX"
+ #ENTER YOUR BOLT CLOUD API KEY
+DEVICE_ID="BOLTXXXXXXX" #ENTER YOUR BOLT DEVICE ID 
+﻿
+
+Step 5: Create another python file for the main code of the project, type- sudo nano light_detection_buzzer.py to create it and enter the following code given on my Github gists 
  check this link for the full documentation https://projectsubmission.boltiot.com/?p=13874&preview=true
